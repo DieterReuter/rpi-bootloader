@@ -1,4 +1,5 @@
 # rpi-bootloader
+[![Build Status](https://travis-ci.org/hypriot/rpi-bootloader.svg?branch=master)](https://travis-ci.org/hypriot/rpi-bootloader)
 
 
 ## Build locally
