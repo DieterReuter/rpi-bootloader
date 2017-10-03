@@ -1,5 +1,5 @@
 # rpi-bootloader
-[![Build Status](https://travis-ci.org/dieterreuter/rpi-bootloader.svg?branch=master)](https://travis-ci.org/dieterreuter/rpi-bootloader)
+[![Build Status](https://travis-ci.org/DieterReuter/rpi-bootloader.svg?branch=master)](https://travis-ci.org/DieterReuter/rpi-bootloader)
 
 
 ## Build locally
