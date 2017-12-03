@@ -1,6 +1,8 @@
 # rpi-bootloader
 [![Build Status](https://travis-ci.org/DieterReuter/rpi-bootloader.svg?branch=master)](https://travis-ci.org/DieterReuter/rpi-bootloader)
 
+This repo just builds a package with all the necessary boot file for a Raspberry Pi. So it fetches all files from the upstream repo at https://github.com/raspberrypi/firmware.
+
 
 ## Build locally
 
