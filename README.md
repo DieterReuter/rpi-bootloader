@@ -3,6 +3,8 @@
 
 This repo just builds a package with all the necessary boot file for a Raspberry Pi. So it fetches all files from the upstream repo at https://github.com/raspberrypi/firmware.
 
+Bootloader for latest LTS Linux Kernel 4.9.70.
+
 
 ## Build locally
 
