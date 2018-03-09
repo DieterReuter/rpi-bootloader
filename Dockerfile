@@ -1,7 +1,9 @@
 FROM alpine:3.7
 
 WORKDIR /workdir
-ENV FIRMWARE=/workdir/raspberry-firmware
+ENV FIRMWARE=/workdir/raspberry-firmware \
+    FIRMWARE_REPO=https://www.github.com/raspberrypi/firmware \
+    TIMESTAMP_OUTPUT=true
 
 # Install build dependencies
 RUN apk add --no-cache bash git
