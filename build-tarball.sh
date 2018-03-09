@@ -5,7 +5,11 @@ set -x
 # Create target dir for build artefacts
 WORKDIR=$PWD
 BUILD_NR=${BUILD_NR:=$(date '+%Y%m%d-%H%M%S')}
-BUILD_DEST=/builds/$BUILD_NR
+if [ "$TIMESTAMP_OUTPUT" == "true" ]; then
+  BUILD_DEST=/builds/$BUILD_NR
+else
+  BUILD_DEST=/builds
+fi
 mkdir -p $BUILD_DEST
 
 # Clone the upstream GH repo
@@ -17,7 +21,7 @@ if [[ -d $FIRMWARE ]]; then
   git checkout $BRANCH
 else
   # clone repo
-  git clone --single-branch --branch $BRANCH --depth 1 https://www.github.com/raspberrypi/firmware $FIRMWARE
+  git clone --single-branch --branch $BRANCH --depth 1 $FIRMWARE_REPO $FIRMWARE
   cd $FIRMWARE
 fi
 
