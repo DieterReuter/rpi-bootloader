@@ -30,42 +30,43 @@ $ ./build.sh
 ```
 $ tree builds/
 builds/
-└── 20190713-102933
+└── 20190713-103924
     ├── rpi-bootloader.tar.gz
     └── rpi-bootloader.tar.gz.sha256
 
 1 directory, 2 files
 
-$ ls -al builds/20190713-102933/
-total 27112
-drwxr-xr-x  4 dieter  staff       128 Jul 13 12:30 .
-drwxr-xr-x  3 dieter  staff        96 Jul 13 12:29 ..
--rw-r--r--  1 dieter  staff  13711508 Jul 13 12:30 rpi-bootloader.tar.gz
--rw-r--r--  1 dieter  staff        88 Jul 13 12:30 rpi-bootloader.tar.gz.sha256
+$ ls -al builds/20190713-103924/
+total 27768
+drwxr-xr-x  4 dieter  staff       128 Jul 13 12:39 .
+drwxr-xr-x  3 dieter  staff        96 Jul 13 12:40 ..
+-rw-r--r--  1 dieter  staff  13718802 Jul 13 12:39 rpi-bootloader.tar.gz
+-rw-r--r--  1 dieter  staff        88 Jul 13 12:39 rpi-bootloader.tar.gz.sha256
 ```
 
 
 ## Content of a tarball
 ```
-$ tar vtf builds/20190713-102933/rpi-bootloader.tar.gz
--rw-r--r--  0 root   root     1494 Jul 13 12:29 boot/LICENCE.broadcom
--rw-r--r--  0 root   root    52296 Jul 13 12:29 boot/bootcode.bin
--rw-r--r--  0 root   root     6724 Jul 13 12:29 boot/fixup.dat
--rw-r--r--  0 root   root     6068 Jul 13 12:29 boot/fixup4.dat
--rw-r--r--  0 root   root     3030 Jul 13 12:29 boot/fixup4cd.dat
--rw-r--r--  0 root   root     9146 Jul 13 12:29 boot/fixup4db.dat
--rw-r--r--  0 root   root     9148 Jul 13 12:29 boot/fixup4x.dat
--rw-r--r--  0 root   root     2649 Jul 13 12:29 boot/fixup_cd.dat
--rw-r--r--  0 root   root     9802 Jul 13 12:29 boot/fixup_db.dat
--rw-r--r--  0 root   root     9798 Jul 13 12:29 boot/fixup_x.dat
--rw-r--r--  0 root   root  2878052 Jul 13 12:29 boot/start.elf
--rw-r--r--  0 root   root  2759172 Jul 13 12:29 boot/start4.elf
--rw-r--r--  0 root   root   762880 Jul 13 12:29 boot/start4cd.elf
--rw-r--r--  0 root   root  4716552 Jul 13 12:29 boot/start4db.elf
--rw-r--r--  0 root   root  3672712 Jul 13 12:29 boot/start4x.elf
--rw-r--r--  0 root   root   685412 Jul 13 12:29 boot/start_cd.elf
--rw-r--r--  0 root   root  4854088 Jul 13 12:29 boot/start_db.elf
--rw-r--r--  0 root   root  3791560 Jul 13 12:29 boot/start_x.elf
+$ tar vtf builds/20190713-103924/rpi-bootloader.tar.gz
+-rw-r--r--  0 root   root    18693 Jul 13 12:39 boot/COPYING.linux
+-rw-r--r--  0 root   root     1494 Jul 13 12:39 boot/LICENCE.broadcom
+-rw-r--r--  0 root   root    52296 Jul 13 12:39 boot/bootcode.bin
+-rw-r--r--  0 root   root     6724 Jul 13 12:39 boot/fixup.dat
+-rw-r--r--  0 root   root     6068 Jul 13 12:39 boot/fixup4.dat
+-rw-r--r--  0 root   root     3030 Jul 13 12:39 boot/fixup4cd.dat
+-rw-r--r--  0 root   root     9146 Jul 13 12:39 boot/fixup4db.dat
+-rw-r--r--  0 root   root     9148 Jul 13 12:39 boot/fixup4x.dat
+-rw-r--r--  0 root   root     2649 Jul 13 12:39 boot/fixup_cd.dat
+-rw-r--r--  0 root   root     9802 Jul 13 12:39 boot/fixup_db.dat
+-rw-r--r--  0 root   root     9798 Jul 13 12:39 boot/fixup_x.dat
+-rw-r--r--  0 root   root  2878052 Jul 13 12:39 boot/start.elf
+-rw-r--r--  0 root   root  2759172 Jul 13 12:39 boot/start4.elf
+-rw-r--r--  0 root   root   762880 Jul 13 12:39 boot/start4cd.elf
+-rw-r--r--  0 root   root  4716552 Jul 13 12:39 boot/start4db.elf
+-rw-r--r--  0 root   root  3672712 Jul 13 12:39 boot/start4x.elf
+-rw-r--r--  0 root   root   685412 Jul 13 12:39 boot/start_cd.elf
+-rw-r--r--  0 root   root  4854088 Jul 13 12:39 boot/start_db.elf
+-rw-r--r--  0 root   root  3791560 Jul 13 12:39 boot/start_x.elf
 ```
 
 --
