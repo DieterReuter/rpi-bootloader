@@ -70,7 +70,8 @@ $ tar vtf builds/20190713-103924/rpi-bootloader.tar.gz
 -rw-r--r--  0 root   root  3791560 Jul 13 12:39 boot/start_x.elf
 ```
 
---
+
+## License
 
 MIT License
 
