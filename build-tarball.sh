@@ -28,6 +28,7 @@ fi
 # Create tar file
 TARFILE=rpi-bootloader.tar.gz
 FILELIST="
+boot/COPYING.*
 boot/LICENCE.*
 boot/bootcode.bin
 boot/fixup*.dat
