@@ -63,4 +63,4 @@ $ tar vtf builds/20170303-121340/rpi-bootloader.tar.gz
 --
 MIT License
 
-Copyright (c) 2018 Dieter Reuter
+Copyright (c) 2018-2019 Dieter Reuter
