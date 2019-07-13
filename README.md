@@ -13,6 +13,7 @@ We can run the build process for development locally on macOS with the help of [
 Show the build process.
 ```
 $ cat build.sh
+
 #!/bin/bash
 set -e
 
