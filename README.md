@@ -16,8 +16,9 @@ $ cat build.sh
 #!/bin/bash
 set -e
 
-docker-compose build
-docker-compose run builder
+docker-compose -p rpibootloaderbuild build
+docker-compose -p rpibootloaderbuild run builder
+docker-compose -p rpibootloaderbuild down
 ```
 
 Run a local build.
@@ -70,6 +71,7 @@ $ tar vtf builds/20190713-103924/rpi-bootloader.tar.gz
 ```
 
 --
+
 MIT License
 
 Copyright (c) 2018-2019 Dieter Reuter
